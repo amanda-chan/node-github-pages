@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'Building the app...' && mkdir public && cp index.html public/",
+    "build": "echo 'Building the app...' && mkdir -p public && cp index.html public/",
     "start": "node server.js"
   },
   "keywords": [],
